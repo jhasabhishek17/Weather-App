@@ -4,15 +4,11 @@ A responsive weather application built with **React and Material UI** that allow
 
 ## 📸 Preview
 
-## 📸 Preview
-
 <p align="center">
   <img src="./WeatherSS.png" alt="Weather App Screenshot" width="700">
 </p>
 
-<p align="center">
-  <a href="https://ibb.co/VcGT41BF">View Full Screenshot</a>
-</p>
+
 
 > **Note:** Replace `PASTE_DIRECT_IMAGE_URL_HERE` with the direct image URL from ImgBB's Embed options to display the screenshot inside this README.
 
