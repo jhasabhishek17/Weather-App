@@ -1,0 +1,57 @@
+.InfoBox {
+    text-align: center;
+    width: 100%;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cardContainer > .MuiCard-root {
+    width: 100%;
+    max-width: 345px;
+    overflow: hidden;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cardContainer > .MuiCard-root:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 30px rgba(15, 23, 42, 0.14);
+}
+
+.cardContainer .MuiCardMedia-root {
+    background-position: center;
+    background-size: cover;
+}
+
+.cardContainer .MuiCardContent-root {
+    padding: 22px;
+    text-align: left;
+}
+
+.cardContainer .MuiTypography-h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    color: #1e3a8a;
+    font-weight: 700;
+}
+
+.cardContainer .MuiCardContent-root p {
+    margin: 12px 0;
+    color: #475569;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media (max-width: 480px) {
+    .cardContainer > .MuiCard-root {
+        max-width: 100%;
+    }
+}
