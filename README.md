@@ -4,10 +4,10 @@ A responsive weather application built with **React and Material UI** that allow
 
 ## 📸 Preview
 
+## 📸 Preview
+
 <p align="center">
-  <a href="https://ibb.co/VcGT41BF">
-    <img src="PASTE_DIRECT_IMAGE_URL_HERE" alt="Weather App Screenshot" width="700">
-  </a>
+  <img src="./WeatherSS.png" alt="Weather App Screenshot" width="700">
 </p>
 
 <p align="center">
